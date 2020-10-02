@@ -10,9 +10,19 @@
   <title>Save Lincoln!</title>
 </head>
 <body>
-    <div id="interval-input">
-      <input id="interval" placeholder="Enter Interval in Milliseconds" style="width: 30vw;"></input>
-      <button id="save_lincoln">Save Lincoln!</button>
+  <style>
+    
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  </style>
+    <div id="interval-input" class="container" style="padding: 50px; background-color: #333;">
+      <input id="interval" placeholder="Enter Interval in Milliseconds" style="width: 30vw; padding: 10px 0px;"></input>
+      <button id="save_lincoln"  style="padding: 10px 0px; background-color: rgb(231, 102, 79);">Save Lincoln!</button>
     </div>
     <div id="images" style="display: block; position: relative;">
       <img id="background" src="Abraham.png" style="position:absolute; " alt="abraham lincoln">
@@ -23,3 +33,4 @@
     <script src="index.js"></script>
 </body>
 </html>
+
